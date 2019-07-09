@@ -147,7 +147,7 @@ export class Parallax extends React.PureComponent {
 
   constructor(props) {
     super()
-    this.state = { ready: false }
+    this.state = { ready: true }
     this.layers = []
     this.space = 0
     this.current = 0
